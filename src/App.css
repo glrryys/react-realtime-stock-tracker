@@ -1,0 +1,21 @@
+/* --- layout --- */
+body { font-family: "Segoe UI", sans-serif; background: #ffffff; color: #111; }
+.container { max-width: 980px; margin: 40px auto; padding: 0 16px; }
+.title { font-size: 32px; font-weight: 700; margin-bottom: 24px; }
+
+/* --- controls --- */
+.controls { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 32px; }
+.controls input { border: 2px solid #555; border-radius: 4px; padding: 10px; font-size: 18px; width: 90px; }
+.symbol-input { width: 140px; }
+
+/* --- buttons --- */
+.btn { background: #2ecc71; /* green */ border: none; color: #fff; font-weight: 700; font-size: 18px; padding: 10px 22px; border-radius: 4px; cursor: pointer; }
+.btn:hover { background: #27ae60; }
+.btn.secondary { background: #3498db; }        /* blue for Refresh */
+.btn.secondary:hover { background: #2980b9; }
+
+/* --- table --- */
+.stock-table { width: 100%; border-collapse: collapse; }
+.stock-table th { background: #00bfa5; color: #fff; font-size: 20px; padding: 12px; }
+.stock-table td { text-align: center; font-size: 18px; padding: 12px; }
+.stock-table tr:nth-child(even) { background: #f7f7f7; }
